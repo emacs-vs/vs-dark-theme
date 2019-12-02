@@ -38,12 +38,13 @@
       (bg1 "#161616")
       (builtin "#B0C4DE")
       (keyword "#17A0FB")
-      (const   "#38EFCA")
+      (const "#38EFCA")
       (comment "#6B8E23")
-      (func    "#D2D2D2")
-      (str     "#D69D78")
-      (type    "#38EFCA")
-      (var     "#D2D2D2")
+      (func "#D2D2D2")
+      (str "#D69D78")
+      (type "#38EFCA")
+      (var "#D2D2D2")
+      (prep "#8D9B99")
       (ln-color-fg "#B3B3B3")
       (ln-color-bg "#212121"))
   (custom-theme-set-faces
@@ -60,6 +61,7 @@
    `(font-lock-string-face ((,class (:foreground ,str))))
    `(font-lock-type-face ((,class (:foreground ,type ))))
    `(font-lock-variable-name-face ((,class (:foreground ,var))))
+   `(font-lock-preprocessor-face ((,class (:foreground ,prep))))
    `(line-number ((,class (:background ,ln-color-bg , :foreground ,ln-color-fg))))))
 
 ;;;###autoload
