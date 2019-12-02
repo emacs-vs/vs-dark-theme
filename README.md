@@ -4,3 +4,7 @@
 
 # vs-dark-theme
 > Visual Studio IDE dark theme.
+
+<p align="center">
+  <img src="./screenshot/vs-dark-theme.png"/>
+</p>
