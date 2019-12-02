@@ -35,15 +35,7 @@
 
 (let ((class '((class color) (min-colors 89)))
       (fg1 "#D2D2D2")
-      (fg2 "#bfbfbf")
-      (fg3 "#adadad")
-      (fg4 "#9b9b9b")
       (bg1 "#161616")
-      (bg2 "#252525")
-      (bg3 "#353535")
-      (bg4 "#464646")
-      (key2 "#50aafc")
-      (key3 "#208ddc")
       (builtin "#B0C4DE")
       (keyword "#17A0FB")
       (const   "#38EFCA")
@@ -51,7 +43,9 @@
       (func    "#D2D2D2")
       (str     "#D69D78")
       (type    "#38EFCA")
-      (var     "#D2D2D2"))
+      (var     "#D2D2D2")
+      (ln-color-fg "#B3B3B3")
+      (ln-color-bg "#212121"))
   (custom-theme-set-faces
    'vs-dark
    `(default ((,class (:background ,bg1 :foreground ,fg1))))
@@ -61,11 +55,12 @@
    `(font-lock-reference-face ((,class (:foreground ,const))))
    `(font-lock-constant-face ((,class (:foreground ,const))))
    `(font-lock-doc-face ((,class (:foreground ,comment))))
-   `(font-lock-function-name-face ((,class (:foreground ,func :bold t))))
-   `(font-lock-keyword-face ((,class (:bold ,class :foreground ,keyword))))
+   `(font-lock-function-name-face ((,class (:foreground ,func))))
+   `(font-lock-keyword-face ((,class (:foreground ,keyword))))
    `(font-lock-string-face ((,class (:foreground ,str))))
    `(font-lock-type-face ((,class (:foreground ,type ))))
-   `(font-lock-variable-name-face ((,class (:foreground ,var))))))
+   `(font-lock-variable-name-face ((,class (:foreground ,var))))
+   `(line-number ((,class (:background ,ln-color-bg , :foreground ,ln-color-fg))))))
 
 ;;;###autoload
 (when load-file-name
@@ -78,10 +73,7 @@
   (load-theme 'vs-dark t))
 
 (provide-theme 'vs-dark)
+
+
 (provide 'vs-dark-theme)
-
-;; Local Variables:
-;; no-byte-compile: t
-;; End:
-
 ;;; vs-dark-theme.el ends here
