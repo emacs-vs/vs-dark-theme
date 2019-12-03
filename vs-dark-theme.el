@@ -45,7 +45,7 @@
       (type "#38EFCA")
       (var "#D2D2D2")
       (prep "#8D9B99")
-      (ln-color-fg "#B3B3B3")
+      (ln-color-fg "#2B9181")
       (ln-color-bg "#212121"))
   (custom-theme-set-faces
    'vs-dark
