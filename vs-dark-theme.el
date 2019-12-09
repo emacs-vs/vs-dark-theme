@@ -72,6 +72,7 @@
 ;;;###autoload
 (defun vs-dark-theme ()
   "Load Visual Studio dark theme."
+  (interactive)
   (load-theme 'vs-dark t))
 
 (provide-theme 'vs-dark)
