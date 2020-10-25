@@ -77,6 +77,5 @@
 
 (provide-theme 'vs-dark)
 
-
 (provide 'vs-dark-theme)
 ;;; vs-dark-theme.el ends here
