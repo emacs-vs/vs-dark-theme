@@ -1,6 +1,6 @@
 ;;; vs-dark-theme.el --- Visual Studio IDE dark theme
 
-;; Copyright (C) 2019 , Jen-Chieh Shen
+;; Copyright (C) 2019-2021 , Jen-Chieh Shen
 
 ;; Author: Jen-Chieh Shen
 ;; URL: https://github.com/jcs090218/vs-dark-theme
