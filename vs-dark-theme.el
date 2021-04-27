@@ -35,7 +35,7 @@
 
 (let ((class '((class color) (min-colors 89)))
       (fg1 "#D2D2D2")
-      (bg1 "#161616")
+      (bg1 "#1E1E1E")
       (builtin "#B0C4DE")
       (keyword "#17A0FB")
       (const "#38EFCA")
