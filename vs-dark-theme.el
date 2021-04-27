@@ -46,7 +46,7 @@
       (var "#D2D2D2")
       (prep "#8D9B99")
       (ln-color-fg "#2B9181")
-      (ln-color-bg "#212121"))
+      (ln-color-bg "#252525"))
   (custom-theme-set-faces
    'vs-dark
    `(default ((,class (:background ,bg1 :foreground ,fg1))))
