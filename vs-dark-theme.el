@@ -54,6 +54,8 @@
  `(region      ((t :background "#264F78")))
  `(fringe      ((t :background "#333333")))
 
+ `(fill-column-indicator ((t :foreground "#AA4242")))
+
  `(show-paren-match ((t :background "#113D6F")))
 
  `(tree-sitter-hl-face:tag                 ((t :foreground "#D7A552")))
@@ -115,6 +117,8 @@
 
  `(whitespace-indentation ((t :background "grey20" :foreground "aquamarine3")))
  `(whitespace-trailing    ((t :background "grey20" :foreground "red")))
+
+ `(highlight-numbers-number ((t :foreground "#9BCEA3")))
  )
 
 ;;;###autoload
