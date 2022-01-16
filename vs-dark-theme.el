@@ -54,6 +54,8 @@
  `(region      ((t :background "#264F78")))
  `(fringe      ((t :background "#333333")))
 
+ `(highlight ((t :background "#2E2E2E")))
+
  `(fill-column-indicator ((t :foreground "#AA4242")))
 
  `(show-paren-match ((t :background "#113D6F")))
