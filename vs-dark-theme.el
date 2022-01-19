@@ -54,7 +54,7 @@
  `(region      ((t :background "#264F78")))
  `(fringe      ((t :background "#333333")))
 
- `(highlight ((t :background "#2E2E2E")))
+ `(highlight ((t :background "#264F78")))
 
  `(fill-column-indicator ((t :foreground "#AA4242")))
 
