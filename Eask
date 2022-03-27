@@ -1,6 +1,10 @@
 (source "melpa")
 
+(package "vs-dark-theme" "1.0" "Visual Studio IDE dark theme")
+
 (package-file "vs-dark-theme.el")
+
+(depends-on "emacs" "24.1")
 
 (development
  (depends-on "ert-runner"))
