@@ -1,4 +1,6 @@
-(package "vs-dark-theme" "1.0" "Visual Studio IDE dark theme")
+(package "vs-dark-theme"
+         "1.0"
+         "Visual Studio IDE dark theme")
 
 (package-file "vs-dark-theme.el")
 
