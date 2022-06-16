@@ -2,6 +2,9 @@
          "1.0"
          "Visual Studio IDE dark theme")
 
+(website-url "https://github.com/emacs-vs/vs-dark-theme")
+(keywords "")
+
 (package-file "vs-dark-theme.el")
 
 (source "melpa")
