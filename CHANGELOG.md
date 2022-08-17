@@ -19,6 +19,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 * Configure theme for `define-it`
 * Configure theme for `flx`
 * Configure theme for `coverlay` (f15a0a85c92fd3a5125c9762bb68e9fbb9493618)
+* Enhance org-headers (b64f84fe4948254e93a3582d92414922437b0476)
 
 ## 1.0
 > Released Jan 1, 2022
