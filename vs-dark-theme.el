@@ -62,6 +62,12 @@
 
  `(show-paren-match ((t :background "#113D6F")))
 
+ `(highlight-doxygen-comment    ((t :background "#1E1E1E")))
+ `(highlight-doxygen-code-block ((t :background "grey40")))
+ `(highlight-doxygen-command    ((t :foreground "SlateGray")))
+ `(highlight-doxygen-type       ((t :foreground "SteelBlue")))
+ `(highlight-doxygen-variable   ((t :foreground "gold4")))
+
  `(tree-sitter-hl-face:tag                 ((t :foreground "#D7A552")))
  `(tree-sitter-hl-face:type.builtin        ((t :foreground "#17A0FB")))
  `(tree-sitter-hl-face:type                ((t :foreground "#38EFCA")))
