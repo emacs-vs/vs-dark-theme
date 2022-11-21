@@ -23,6 +23,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 * Configure theme for `highlight-doxygen` (215f5b5f951c79902e2e51038a7761604df0c4af)
 * Fix `:line-width` bug, see [here](https://emacs.stackexchange.com/a/47227/19549) (14cbc27bc71729deba3920a92fc8002ba7b63542)
 * Configure theme for `highlight-indent-guides` (94694257af1831359e645ae87a88437457d2fc49)
+* Configure dashboard text banner (286271bb868058804992b7ee616001625cd9f693)
 
 ## 1.0
 > Released Jan 1, 2022
