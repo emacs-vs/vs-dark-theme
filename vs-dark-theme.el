@@ -130,6 +130,7 @@
  `(centaur-tabs-modified-marker-unselected ((t :background "#3D3C3D" :foreground "grey50")))
  `(centaur-tabs-modified-marker-selected   ((t :background "#31343E" :foreground "white")))
 
+ `(dashboard-text-banner       ((t :foreground "white")))
  `(dashboard-banner-logo-title ((t :foreground "cyan1")))
  `(dashboard-heading           ((t :foreground "#17A0FB")))
  `(dashboard-items-face        ((t :foreground "light steel blue")))
