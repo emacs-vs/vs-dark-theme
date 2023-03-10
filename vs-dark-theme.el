@@ -78,7 +78,7 @@
  `(highlight-doxygen-type       ((t :foreground "SteelBlue")))
  `(highlight-doxygen-variable   ((t :foreground "gold4")))
 
- `(tree-sitter-hl-face:tag                 ((t :foreground "#D7A552")))
+ `(tree-sitter-hl-face:tag                 ((t :foreground "#569CD6")))
  `(tree-sitter-hl-face:type.builtin        ((t :foreground "#17A0FB")))
  `(tree-sitter-hl-face:type                ((t :foreground "#38EFCA")))
  `(tree-sitter-hl-face:function            ((t :foreground "#D2D2D2")))
