@@ -195,7 +195,9 @@
  'vs-dark
  ;; coverlay overlays
  `(coverlay:tested-line-background-color   "#E1FFE1")
- `(coverlay:untested-line-background-color "LavenderBlush"))
+ `(coverlay:untested-line-background-color "LavenderBlush")
+ `(jcs-poptip-background-color "#2A2D38")
+ `(jcs-poptip-foreground-color "#F1F1F1"))
 
 ;;;###autoload
 (when load-file-name
