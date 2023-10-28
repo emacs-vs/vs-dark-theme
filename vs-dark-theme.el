@@ -32,6 +32,9 @@
 (deftheme vs-dark
   "Visual Studio IDE dark theme.")
 
+(defconst vs-dark-theme-graphic-p (display-graphic-p)
+  "Non-nil if graphic mode.")
+
 (custom-theme-set-faces
  'vs-dark
  `(default                      ((t (:background "#1E1E1E" :foreground "#D2D2D2"))))
@@ -48,20 +51,28 @@
  `(font-lock-type-face          ((t (:foreground "#38EFCA"))))
  `(font-lock-variable-name-face ((t (:foreground "#D2D2D2"))))
 
- `(line-number ((t (:background "#252525" :foreground "#2B9181"))))
- `(cursor      ((t :background "#909090")))
- `(hl-line     ((t :background "#2E2E2E")))
- `(region      ((t :background "#264F78")))
- `(fringe      ((t :background "#333333")))
+ `(line-number              ((t ( :background "#252525" :foreground "#2B9181"))))
+ `(line-number-current-line ((t ( :background "#252525"
+                                  :foreground ,(if vs-dark-theme-graphic-p
+                                                   "#2B9181"
+                                                 "#00FFD5")))))
+
+ `(cursor  ((t :background "#909090")))
+ `(hl-line ((t :background ,(if vs-dark-theme-graphic-p "#2E2E2E" "#363636"))))
+ `(region  ((t :background "#264F78")))
+ `(fringe  ((t :background "#333333")))
 
  `(completions-annotations ((t :inherit (shadow))))
- `(completions-common-part ((t :foreground "#72a4ff" :weight bold)))
+ `(completions-common-part ((t :foreground "#72A4FF" :weight bold)))
 
- `(highlight ((t :background "#264F78")))
+ `(highlight ((t :background ,(if vs-dark-theme-graphic-p "#264F78" "#363636"))))
 
  `(fill-column-indicator ((t :foreground "#AA4242")))
 
- `(show-paren-match ((t :box (:line-width (-1 . -1) :style released-button :color "#464646"))))
+ `(show-paren-match ,(if vs-dark-theme-graphic-p
+                         `((t :box ( :line-width (-1 . -1) :style released-button
+                                     :color "#464646")))
+                       `((t :background "#72A4FF"))))
 
  `(highlight-indent-guides-odd-face             ((t :foreground "#414141")))
  `(highlight-indent-guides-even-face            ((t :foreground "#414141")))
