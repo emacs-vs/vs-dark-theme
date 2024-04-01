@@ -105,7 +105,7 @@
  `(tree-sitter-hl-face:type.argument         ((t :foreground "#D2D2D2")))
  `(tree-sitter-hl-face:type.builtin          ((t :foreground "#17A0FB")))
  `(tree-sitter-hl-face:type.super            ((t :foreground "#17A0FB")))
- `(tree-sitter-hl-face:constructor           ((t :foreground "#17A0FB")))
+ `(tree-sitter-hl-face:constructor           ((t :foreground "#D2D2D2")))
  `(tree-sitter-hl-face:variable              ((t :foreground "#D2D2D2")))
  `(tree-sitter-hl-face:variable.parameter    ((t :foreground "#7F7F7F")))
  `(tree-sitter-hl-face:variable.builtin      ((t :foreground "light steel blue")))
