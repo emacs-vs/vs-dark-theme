@@ -161,6 +161,9 @@
  `(ahs-face-unfocused                ((t :background "#0E3056" :box (:line-width (-1 . -1) :style pressed-button :color "#525D68"))))
  `(ahs-definition-face-unfocused     ((t :background "#0E3056" :box (:line-width (-1 . -1) :style pressed-button :color "#525D68"))))
 
+ `(tab-line     ((t :background "#1D1D1D")))
+ `(tab-line-tab ((t :background "#1D1D1D")))
+
  `(centaur-tabs-display-line               ((t :background "#1D1D1D" :box nil :overline nil :underline nil)))
  `(centaur-tabs-default                    ((t :background "#1D1D1D")))
  `(centaur-tabs-unselected                 ((t :background "#3D3C3D" :foreground "grey50")))
