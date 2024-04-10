@@ -161,11 +161,11 @@
  `(ahs-face-unfocused                ((t :background "#0E3056" :box (:line-width (-1 . -1) :style pressed-button :color "#525D68"))))
  `(ahs-definition-face-unfocused     ((t :background "#0E3056" :box (:line-width (-1 . -1) :style pressed-button :color "#525D68"))))
 
- `(tab-line     ((t :background "#1D1D1D")))
- `(tab-line-tab ((t :background "#1D1D1D")))
+ `(tab-line     ((t :background "#292929")))
+ `(tab-line-tab ((t :background "#292929")))
 
- `(centaur-tabs-display-line               ((t :background "#1D1D1D" :box nil :overline nil :underline nil)))
- `(centaur-tabs-default                    ((t :background "#1D1D1D")))
+ `(centaur-tabs-display-line               ((t :background "#292929" :box nil :overline nil :underline nil)))
+ `(centaur-tabs-default                    ((t :background "#292929")))
  `(centaur-tabs-unselected                 ((t :background "#3D3C3D" :foreground "grey50")))
  `(centaur-tabs-selected                   ((t :background "#31343E" :foreground "white")))
  `(centaur-tabs-unselected-modified        ((t :background "#3D3C3D" :foreground "grey50")))
@@ -252,6 +252,7 @@
 
 (custom-theme-set-variables
  'vs-dark
+ `(centaur-tabs-background-color "#292929")
  ;; coverlay overlays
  `(coverlay:tested-line-background-color   "#E1FFE1")
  `(coverlay:untested-line-background-color "LavenderBlush")
