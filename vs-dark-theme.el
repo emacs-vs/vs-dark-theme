@@ -195,9 +195,9 @@
  `(modablist-select-face ((t :box (:line-width (-1 . -1) :color "#65A7E2" :style nil))))
  `(modablist-insert-face ((t :background "#565136" :box (:line-width (-1 . -1) :color "#65A7E2" :style nil))))
 
- `(lsp-inlay-hint-face           ((t :background "#2D2D2D" :foreground "#969696")))
- `(lsp-inlay-hint-type-face      ((t :background "#2D2D2D" :foreground "#969696")))
- `(lsp-inlay-hint-parameter-face ((t :background "#2D2D2D" :foreground "#969696")))
+ `(lsp-inlay-hint-face           ((t :background "#252525" :foreground "#969696")))
+ `(lsp-inlay-hint-type-face      ((t :background "#252525" :foreground "#969696")))
+ `(lsp-inlay-hint-parameter-face ((t :background "#252525" :foreground "#969696")))
 
  `(dap-ui-breakpoint-verified-fringe ((t :foreground "#E71F2D")))
  `(breakpoint-disabled               ((t :foreground "#C55159")))
