@@ -137,6 +137,10 @@
  `(tree-sitter-hl-face:attribute             ((t :foreground "#8D9B99")))
  `(tree-sitter-hl-face:noise                 ((t :foreground "#8D9B99")))
 
+ `(ts-fold-replacement-face ((t :foreground "#808080" :box (:line-width (-1 . -1) :style pressed-button))))
+
+ `(treesit-fold-replacement-face ((t :foreground "#808080" :box (:line-width (-1 . -1) :style pressed-button))))
+
  `(company-tooltip-annotation       ((t :foreground "#96A2AA")))
  `(company-fuzzy-annotation-face    ((t :foreground "#7BABCA")))
  `(company-preview                  ((t :foreground "dark gray" :underline t)))
@@ -191,7 +195,9 @@
  `(modablist-select-face ((t :box (:line-width (-1 . -1) :color "#65A7E2" :style nil))))
  `(modablist-insert-face ((t :background "#565136" :box (:line-width (-1 . -1) :color "#65A7E2" :style nil))))
 
- `(ts-fold-replacement-face ((t :foreground "#808080" :box (:line-width (-1 . -1) :style pressed-button))))
+ `(lsp-inlay-hint-face           ((t :background "#2D2D2D" :foreground "#969696")))
+ `(lsp-inlay-hint-type-face      ((t :background "#2D2D2D" :foreground "#969696")))
+ `(lsp-inlay-hint-parameter-face ((t :background "#2D2D2D" :foreground "#969696")))
 
  `(dap-ui-breakpoint-verified-fringe ((t :foreground "#E71F2D")))
  `(breakpoint-disabled               ((t :foreground "#C55159")))
