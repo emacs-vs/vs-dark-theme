@@ -25,6 +25,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 * Configure theme for `highlight-indent-guides` (94694257af1831359e645ae87a88437457d2fc49)
 * Configure dashboard text banner (286271bb868058804992b7ee616001625cd9f693)
 * Add support for `nxml-mode` (cec640fb94970c696f04573fe57e2788a4352622)
+* Support LSP inlay hints (1b4be39677c321fa019d63b44cfa099790e34e1c)
 
 ## 1.0
 > Released Jan 1, 2022
