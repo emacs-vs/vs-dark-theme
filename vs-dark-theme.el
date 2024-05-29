@@ -138,8 +138,10 @@
  `(tree-sitter-hl-face:noise                 ((t :foreground "#8D9B99")))
 
  `(ts-fold-replacement-face ((t :foreground "#808080" :box (:line-width (-1 . -1) :style pressed-button))))
+ `(ts-fold-fringe-face      ((t :foreground "#B9B9B9")))
 
  `(treesit-fold-replacement-face ((t :foreground "#808080" :box (:line-width (-1 . -1) :style pressed-button))))
+ `(treesit-fold-fringe-face      ((t :foreground "#B9B9B9")))
 
  `(company-tooltip-annotation       ((t :foreground "#96A2AA")))
  `(company-fuzzy-annotation-face    ((t :foreground "#7BABCA")))
