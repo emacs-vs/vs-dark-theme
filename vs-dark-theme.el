@@ -269,7 +269,9 @@
  `(coverlay:tested-line-background-color   "#E1FFE1")
  `(coverlay:untested-line-background-color "LavenderBlush")
  `(jcs-poptip-background-color "#2A2D38")
- `(jcs-poptip-foreground-color "#F1F1F1"))
+ `(jcs-poptip-foreground-color "#F1F1F1")
+ `(cogru-tip-background-color "#2A2D38")
+ `(cogru-tip-foreground-color "#F1F1F1"))
 
 ;;;###autoload
 (when load-file-name
