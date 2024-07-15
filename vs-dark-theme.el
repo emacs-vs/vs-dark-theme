@@ -156,6 +156,12 @@
  `(company-scrollbar-bg             ((t :background "#3E3E42")))
  `(company-scrollbar-fg             ((t :background "#686868")))
 
+ `(corfu-default     ((t :background "#252526" :foreground "#BEBEBF")))
+ `(corfu-current     ((t :background "#062F4A" :foreground "#BEBEBF")))
+ `(corfu-bar         ((t :background "#062F4A" :foreground "#BEBEBF")))
+ `(corfu-annotations ((t :foreground "#96A2AA")))
+ `(corfu-popupinfo   ((t :background "#2A2D38" :foreground "#F1F1F1")))
+
  `(popup-tip-face ((t :background "#2A2D38" :foreground "#F1F1F1")))
 
  `(flx-highlight-face ((t :foreground "#72a4ff" :weight bold)))
