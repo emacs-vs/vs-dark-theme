@@ -4,7 +4,7 @@
 
 ;; Author: Jen-Chieh Shen
 ;; URL: https://github.com/emacs-vs/vs-dark-theme
-;; Version: 1.0
+;; Version: 2.0
 ;; Package-Requires: ((emacs "24.1"))
 
 ;; This file is NOT part of GNU Emacs.
@@ -191,7 +191,8 @@
 
  `(dashboard-text-banner       ((t :foreground "white")))
  `(dashboard-banner-logo-title ((t :foreground "cyan1")))
- `(dashboard-heading           ((t :foreground "#17A0FB")))
+ `(dashboard-heading           ((t :foreground "#17A0FB"
+                                   :box (:line-width (-1 . 5) :color "#1E1E1E"))))
  `(dashboard-items-face        ((t :foreground "light steel blue")))
 
  `(yascroll:thumb-fringe    ((t :background "#686868" :foreground "#686868")))
