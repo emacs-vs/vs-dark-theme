@@ -1,5 +1,5 @@
 (package "vs-dark-theme"
-         "1.0"
+         "2.0"
          "Visual Studio IDE dark theme")
 
 (website-url "https://github.com/emacs-vs/vs-dark-theme")
