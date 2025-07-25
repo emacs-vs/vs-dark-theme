@@ -82,6 +82,17 @@
 
  `(show-eof-mode-marker-face ((t :background "#252525" :foreground "#888581")))
 
+ `(diredfl-number      ((t :foreground "#B5CEA8")))
+ `(diredfl-dir-name    ((t :foreground "#FFD767")))
+ `(diredfl-date-time   ((t :foreground "#787A81")))
+ `(diredfl-file-name   ((t :foreground "#D4D4D8")))
+ `(diredfl-file-suffix ((t :foreground "#D4D4D8")))
+ `(diredfl-no-priv     ((t :background "#2C2C2C2C2C2C")))
+ `(diredfl-dir-priv    ((t :foreground "#FFD767")))
+ `(diredfl-read-priv   ((t :background "#751D3A")))
+ `(diredfl-write-priv  ((t :background "#134F16")))
+ `(diredfl-exec-priv   ((t :background "#3B2A14")))
+
  `(highlight-indent-guides-odd-face             ((t :foreground "#414141")))
  `(highlight-indent-guides-even-face            ((t :foreground "#414141")))
  `(highlight-indent-guides-character-face       ((t :foreground "#414141")))
