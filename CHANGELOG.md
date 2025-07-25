@@ -8,7 +8,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## 3.0 (Unreleased)
 > Released N/A
 
-* N/A
+* feat: Add `dired` support ([`c3a6d15`](../../commit/c3a6d1545600ff4813d8ce2cf5a77beb9e3f8a1e))
 
 ## 2.0
 > Released Feb 10, 2025
