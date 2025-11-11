@@ -159,6 +159,8 @@
  `(treesit-fold-replacement-face ((t :foreground "#808080" :box (:line-width (-1 . -1) :style pressed-button))))
  `(treesit-fold-fringe-face      ((t :foreground "#B9B9B9")))
 
+ `(foldvis-fringe-face ((t :foreground "#B9B9B9")))
+
  `(company-tooltip-annotation       ((t :foreground "#96A2AA")))
  `(company-fuzzy-annotation-face    ((t :foreground "#7BABCA")))
  `(company-preview                  ((t :foreground "dark gray" :underline t)))
