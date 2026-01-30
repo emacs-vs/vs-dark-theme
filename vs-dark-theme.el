@@ -218,12 +218,24 @@
  `(region-occurrences-highlighter-face ((t :background "#113D6F")))
 
  `(whitespace-indentation ((t :background "grey20" :foreground "aquamarine3")))
- `(whitespace-trailing    ((t :background "grey20" :foreground "red")))
+ `(whitespace-trailing    ((t :background "grey20" :foreground "#E84439")))
 
  `(highlight-numbers-number ((t :foreground "#9BCEA3")))
 
  `(modablist-select-face ((t :box (:line-width (-1 . -1) :color "#65A7E2" :style nil))))
  `(modablist-insert-face ((t :background "#565136" :box (:line-width (-1 . -1) :color "#65A7E2" :style nil))))
+
+ `(success ((t :foreground "#10CA00" :bold t)))
+ `(warning ((t :foreground "#FFAC00" :bold t)))
+ `(error   ((t :foreground "#E6655C" :bold t)))
+
+ `(flycheck-info    ((t :underline (:style wave :color "#10CA00"))))
+ `(flycheck-warning ((t :underline (:style wave :color "#FFAC00"))))
+ `(flycheck-error   ((t :underline (:style wave :color "#E6655C"))))
+
+ `(flymake-note    ((t :underline (:style wave :color "#10CA00"))))
+ `(flymake-warning ((t :underline (:style wave :color "#FFAC00"))))
+ `(flymake-error   ((t :underline (:style wave :color "#E6655C"))))
 
  `(lsp-flycheck-info-unnecessary-face    ((t :inherit flycheck-info)))
  `(lsp-flycheck-warning-unnecessary-face ((t :inherit flycheck-warning)))
@@ -236,24 +248,18 @@
  `(dap-ui-breakpoint-verified-fringe ((t :foreground "#E71F2D")))
  `(breakpoint-disabled               ((t :foreground "#C55159")))
 
- `(success ((t :foreground "#10CA00" :bold t)))
- `(warning ((t :foreground "#F9983A" :bold t)))
- `(error   ((t :foreground "#DF655D" :bold t)))
-
- `(flycheck-info    ((t :underline (:style wave :color "#10CA00"))))
- `(flycheck-warning ((t :underline (:style wave :color "#F9983A"))))
- `(flycheck-error   ((t :underline (:style wave :color "#DF655D"))))
-
- `(sideline-default ((t :foreground "yellow")))
+ `(sideline-default ((t :foreground "#F5F50D")))
  `(sideline-backend ((t :background "#2B2B2B" :foreground "#9B9B9B")))
 
+ `(sideline-lsp-code-action ((t :foreground "#F5F50D")))
+
  `(sideline-flycheck-info    ((t :foreground "#10CA00" :bold t)))
- `(sideline-flycheck-warning ((t :foreground "#F9983A" :bold t)))
- `(sideline-flycheck-error   ((t :foreground "#DF655D" :bold t)))
+ `(sideline-flycheck-warning ((t :foreground "#FFAC00" :bold t)))
+ `(sideline-flycheck-error   ((t :foreground "#E6655C" :bold t)))
 
  `(sideline-flymake-note    ((t :foreground "#10CA00" :bold t)))
- `(sideline-flymake-warning ((t :foreground "#F9983A" :bold t)))
- `(sideline-flymake-error   ((t :foreground "#DF655D" :bold t)))
+ `(sideline-flymake-warning ((t :foreground "#FFAC00" :bold t)))
+ `(sideline-flymake-error   ((t :foreground "#E6655C" :bold t)))
 
  `(diff-added   ((t :background "#0F6B0F")))
  `(diff-removed ((t :background "#A91111")))
