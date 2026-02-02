@@ -10,6 +10,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 * feat: Add `dired` support ([`c3a6d15`](../../commit/c3a6d1545600ff4813d8ce2cf5a77beb9e3f8a1e))
 * feat: Add `diff` support ([#5](../../pull/5))
+* feat: Improve `whitespace` ([`4afa85c`](../../commit/4afa85cd27f107f2936ef2774b7113b6a5fd6e0a))
+* feat: Add `isearch` support ([`bde532f`](../../commit/bde532fcd74abf6be335a063da7c787e796dc4c3))
 
 ## 2.0
 > Released Feb 10, 2025
