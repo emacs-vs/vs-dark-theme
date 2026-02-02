@@ -217,8 +217,10 @@
 
  `(region-occurrences-highlighter-face ((t :background "#113D6F")))
 
- `(whitespace-indentation ((t :background "grey20" :foreground "aquamarine3")))
- `(whitespace-trailing    ((t :background "grey20" :foreground "#E84439")))
+ `(whitespace-space       ((t :background "#232323" :foreground "#144852")))
+ `(whitespace-tab         ((t :background "#232323" :foreground "#144852")))
+ `(whitespace-indentation ((t :background "#232323" :foreground "aquamarine3")))
+ `(whitespace-trailing    ((t :background "#232323" :foreground "#E84439")))
 
  `(highlight-numbers-number ((t :foreground "#9BCEA3")))
 
