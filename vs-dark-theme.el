@@ -263,6 +263,10 @@
  `(sideline-flymake-warning ((t :foreground "#FFAC00" :bold t)))
  `(sideline-flymake-error   ((t :foreground "#E6655C" :bold t)))
 
+ `(isearch        ((t :background "#4F5F73" :box (:line-width (-1 . -1) :style pressed-button :color "#525D68"))))
+ `(isearch-fail   ((t :background "#8C4040" :box (:line-width (-1 . -1) :style pressed-button :color "#525D68"))))
+ `(lazy-highlight ((t :background "#453B32" :box (:line-width (-1 . -1) :style pressed-button :color "#525D68"))))
+
  `(diff-added   ((t :background "#0F6B0F")))
  `(diff-removed ((t :background "#A91111")))
  `(diff-changed ((t :background "#0065B4")))
