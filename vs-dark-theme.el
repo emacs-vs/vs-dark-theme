@@ -217,10 +217,10 @@
 
  `(region-occurrences-highlighter-face ((t :background "#113D6F")))
 
- `(whitespace-space       ((t :background "#232323" :foreground "#144852")))
- `(whitespace-tab         ((t :background "#232323" :foreground "#144852")))
- `(whitespace-indentation ((t :background "#232323" :foreground "aquamarine3")))
- `(whitespace-trailing    ((t :background "#232323" :foreground "#E84439")))
+ `(whitespace-space       ((t :background "#1E1E1E" :foreground "#185A67")))
+ `(whitespace-tab         ((t :background "#1E1E1E" :foreground "#185A67")))
+ `(whitespace-indentation ((t :background "#1E1E1E" :foreground "#185A67")))
+ `(whitespace-trailing    ((t :background "#1E1E1E" :foreground "#CD4941")))
 
  `(highlight-numbers-number ((t :foreground "#9BCEA3")))
 
