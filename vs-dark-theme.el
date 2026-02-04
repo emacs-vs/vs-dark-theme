@@ -227,15 +227,15 @@
  `(modablist-select-face ((t :box (:line-width (-1 . -1) :color "#65A7E2" :style nil))))
  `(modablist-insert-face ((t :background "#565136" :box (:line-width (-1 . -1) :color "#65A7E2" :style nil))))
 
- `(success ((t :foreground "#6DB077" :bold t)))
+ `(success ((t :foreground "#79BC83" :bold t)))
  `(warning ((t :foreground "#D8960E" :bold t)))
  `(error   ((t :foreground "#E6655C" :bold t)))
 
- `(flycheck-info    ((t :underline (:style wave :color "#6DB077"))))
+ `(flycheck-info    ((t :underline (:style wave :color "#79BC83"))))
  `(flycheck-warning ((t :underline (:style wave :color "#D8960E"))))
  `(flycheck-error   ((t :underline (:style wave :color "#E6655C"))))
 
- `(flymake-note    ((t :underline (:style wave :color "#6DB077"))))
+ `(flymake-note    ((t :underline (:style wave :color "#79BC83"))))
  `(flymake-warning ((t :underline (:style wave :color "#D8960E"))))
  `(flymake-error   ((t :underline (:style wave :color "#E6655C"))))
 
@@ -255,11 +255,11 @@
 
  `(sideline-lsp-code-action ((t :foreground "#CBCD0E")))
 
- `(sideline-flycheck-info    ((t :foreground "#6DB077" :bold t)))
+ `(sideline-flycheck-info    ((t :foreground "#79BC83" :bold t)))
  `(sideline-flycheck-warning ((t :foreground "#D8960E" :bold t)))
  `(sideline-flycheck-error   ((t :foreground "#E6655C" :bold t)))
 
- `(sideline-flymake-note    ((t :foreground "#6DB077" :bold t)))
+ `(sideline-flymake-note    ((t :foreground "#79BC83" :bold t)))
  `(sideline-flymake-warning ((t :foreground "#D8960E" :bold t)))
  `(sideline-flymake-error   ((t :foreground "#E6655C" :bold t)))
 
